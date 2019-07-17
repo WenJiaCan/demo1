@@ -12,7 +12,6 @@ module.exports = class extends think.Controller {
     }
   }
   async downloadAction(){
-    const filepath = path.join(think.ROOT_PATH, '');
-    ctx.download(filepath);
+    
   }
 };
